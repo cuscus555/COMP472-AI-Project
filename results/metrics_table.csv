@@ -1,0 +1,17 @@
+﻿Model,Accuracy,Precision,Recall,F1-score,,Comments
+Gaussian Naïve Bayes,0.788,0.79,0.79,0.79,,
+Scikit GNB,0.788,0.79,0.79,0.79,,Exact same accuracy as my implementation
+Decision Tree (50 layers),0.285,0.29,0.28,0.28,,Only uses about 20 layers in reality
+Decision Tree (100 layers),0.285,0.29,0.28,0.28,,No change from 50 layers but slower to train
+Decision Tree (16 layers),0.287,0.29,0.29,0.28,,Slightly better accuracy and faster to train 
+Scikit Decision Tree (50 layers),0.585,0.59,0.58,0.59,,Only uses about 20 layers but much better accuracy
+Default 3-Layer Perceptron (MLP),0.839,0.84,0.84,0.84,,Very good accuracy
+2-Layer Perceptron (MLP),0.838,0.84,0.84,0.84,,Removing 1 layer has no real change in accuracy but is faster to train
+6-Layer Perceptron (MLP),0.823,0.83,0.82,0.82,,Accuracy drops noticeably and model takes much longer to train
+128 Layer-Size Perceptron (3 layers),0.834,0.83,0.83,0.83,,"Similar accuracy, no noticeable change in training time"
+2048 Layer-Size Perceptron (3 layers),0.831,0.83,0.83,0.83,,Slightly worse accuracy and takes much longer to train
+Default CNN (Kernel size 3x3),0.629,0.63,0.63,0.62,,Acceptable accuracy but  much longer training time than MLP
+CNN with 8 conv layers added,0.589,0.59,0.59,0.59,,Very slow to train and accuracy drops significantly
+CNN with 3 conv layers removed,0.648,0.64,0.65,0.64,,"Faster to train and accuracy improves, meaning that the original model had too many layers for the dataset"
+CNN with Kernel size 5x5,0.564,0.58,0.56,0.56,,"Much slower to train than 3x3 kernel, more computationally intensive and worse accuracy"
+CNN with Kernel size 7x7,0.548,0.55,0.55,0.55,,"Very  slow to train compared to 5x5 kernel, more computationally intensive and worse accuracy"

@@ -30,3 +30,6 @@ The saved models from /models will each be evaluated and you will get the follow
 
 7. To view this project on GitHub, go to:
 https://github.com/cuscus555/COMP472-AI-Project.git
+
+PS: It is important to mention that the github repo does not contain the trained models because of size restraints. 
+To get the trained models please refer to the project repo submitted on Moodle.
