@@ -1,7 +1,8 @@
 # COMP 472 Final Project
+by Tudor Cosmin Suciu 40179863, submitted the 26th of November, 2024
 
 ## Description
-by Tudor Cosmin Suciu 40179863, submitted the 26th of November, 2024
+Final project involving the building and training of different AI models on the CIFAR-10 image classification dataset
 
 
 ## Instructions
