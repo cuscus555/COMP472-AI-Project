@@ -17,7 +17,7 @@ This will download and pre-process the dataset for the models to use later.
 3. To train a model go to scripts/ and choose your preferred model and run it's script
 This will save all the trained models with their variants in the models/ folder
 
-4. If you do not wish to train the models but just want to evaluate them, run scripts/evaluate_models.py
+4. If the models are already saved and you just want to evaluate them, run scripts/evaluate_models.py
 The saved models from /models will each be evaluated and you will get the following outputs:
 
     - A terminal output of all the confusion matrices, clasification report and accuracy for each model
