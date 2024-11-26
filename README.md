@@ -14,7 +14,7 @@ pip install -r requirements.txt --user
 2. Run the scripts/data_preprocessing.py script
 This will download and pre-process the dataset for the models to use later.
 
-3. To train a model go to scripts/ and choose your preffered model and run it's script
+3. To train a model go to scripts/ and choose your preferred model and run it's script
 This will save all the trained models with their variants in the models/ folder
 
 4. If you do not wish to train the models but just want to evaluate them, run scripts/evaluate_models.py
